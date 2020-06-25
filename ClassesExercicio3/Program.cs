@@ -9,7 +9,7 @@ namespace ClassesExercicio3
         {
             Funcionario func = new Funcionario();
 
-            Console.Write("Nome: ");
+            Console.Write("Funcionário: ");
             func.Nome = Console.ReadLine();
             Console.Write("Salário bruto: ");
             func.SalarioBruto = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
